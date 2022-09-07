@@ -96,6 +96,15 @@ li {
   height: 20px;
   object-fit: cover;
 }
+.credits {
+  color: antiquewhite;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+.github-link {
+  color: #f5be48;
+  font-weight: 400;
+}
 #c-or-f {
   font-size: 21px;
 }
