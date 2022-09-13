@@ -19,15 +19,22 @@ ul {
   position: relative;
   bottom: 30px;
 }
+.temp-and-units {
+  text-align: right;
+}
+.units .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+.units .active:hover {
+  text-decoration: none;
+}
 #city {
   font-size: 50px;
   font-weight: 500;
   font-family: "Lato";
 }
-#temp-and-units {
-  text-align: right;
-}
-
 #temperature {
   font-size: 60px;
 }
