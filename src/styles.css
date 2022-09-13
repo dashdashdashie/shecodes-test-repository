@@ -27,7 +27,7 @@ ul {
 #temp-and-units {
   text-align: right;
 }
-#weather-conditions {
+#weather-conditions: {
   text-transform: capitalize;
 }
 #temperature {
