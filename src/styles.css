@@ -1,124 +1,43 @@
-div.container {
-  max-width: 550px;
-  width: 550px;
-  padding: 20px 40px 50px 40px;
-  background: linear-gradient(
-    112.1deg,
-    rgb(32, 38, 57) 11.4%,
-    rgb(63, 76, 119) 70.2%
-  );
-  border-radius: 22px;
-}
 ul {
-  list-style: none;
-  text-align: center;
-  color: antiquewhite;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-li {
-  margin: 0;
+  list-style-type: none;
   padding: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
 }
-.date {
-  color: antiquewhite;
-  font-size: 27px;
+.container {
+  max-width: 600px;
+  min-width: 600px;
+}
+.overview {
+  margin: 30px 0 30px 0;
+  padding: 30px;
+  border: 1px solid #ced4da;
+}
+.units {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
   position: relative;
-  top: 15px;
-  font-family: "Lato", sans-serif;
-  font-weight: 200;
+  bottom: 30px;
 }
-.city {
-  color: antiquewhite;
+#city {
   font-size: 50px;
-  line-height: 1;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
+  font-family: "Lato";
 }
-.temperature {
-  color: antiquewhite;
+#temp-and-units {
   text-align: right;
-  font-size: 50px;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
 }
-.forecast {
-  color: antiquewhite;
-  font-size: 27px;
+#weather-conditions {
+  text-transform: capitalize;
+}
+#temperature {
+  font-size: 60px;
+}
+#icon {
   position: relative;
-  top: -25px;
-  right: -97px;
-  font-family: "Lato", sans-serif;
-  font-weight: 200;
+  bottom: 15px;
 }
-.details {
-  text-align: right;
-  font-size: 19px;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-}
-.week {
-  padding: 40px 0 30px 0;
-}
-.days {
-  font-size: 25px;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-}
-.emoji {
-  font-size: 38px;
-}
-.degrees {
-  font-size: 25px;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-}
-.form {
-  display: flex;
-  flex-direction: row;
-}
-.form-control {
-  width: 100%;
-  padding: 10px 35px 10px 15px;
-  border: none;
-  border-radius: 100px;
-  outline: none;
-}
-.search-button {
-  background: transparent;
-  border: none;
-  outline: none;
-  margin-left: -33px;
-}
-
-.search-button img {
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
-}
-.credits {
-  color: antiquewhite;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-}
-.github-link {
-  color: #f5be48;
-  font-weight: 400;
-}
-#c-or-f {
-  font-size: 21px;
-}
-#celsius-link,
-#fahrenheit-link {
-  color: antiquewhite;
-  text-decoration: none;
-}
-#button {
-  padding: 10px 20px 10px 20px;
-  border-radius: 10px;
-  font-size: 20px;
-  background: rgb(63, 76, 119);
-  color: #f5be48;
-  font-family: Lato;
-  font-weight: 300;
+#credits {
+  font-size: 16px;
+  font-family: "lato", sans-serif;
 }
