@@ -36,6 +36,7 @@ ul {
 #icon {
   position: relative;
   bottom: 15px;
+  right: -10px;
 }
 #credits {
   font-size: 16px;
