@@ -2,7 +2,11 @@ ul {
   list-style-type: none;
   padding: 0;
   font-family: "Lato", sans-serif;
+  font-weight: 300;
   font-size: 16px;
+}
+a {
+  color: #f5be48;
 }
 .container {
   max-width: 600px;
@@ -12,32 +16,51 @@ ul {
   margin: 30px 0 30px 0;
   padding: 30px;
   border: 1px solid #ced4da;
+  border-radius: 7px;
+  color: antiquewhite;
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+}
+
+.temp-and-units {
+  text-align: right;
 }
 .units {
   font-family: "Lato", sans-serif;
   font-size: 16px;
+  font-weight: 300;
   position: relative;
   bottom: 30px;
-}
-.temp-and-units {
-  text-align: right;
+  color: #f5be48;
 }
 .units .active {
-  color: black;
+  color: antiquewhite;
   cursor: default;
   text-decoration: none;
 }
 .units .active:hover {
   text-decoration: none;
 }
+#button {
+  background: #29314b;
+  border: 1px solid #29314b;
+  color: #f5be48;
+}
 #city {
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 300;
   font-family: "Lato";
+  color: #f5be48;
 }
 #temperature {
   font-size: 60px;
+  font-family: "Lato";
+  font-weight: 300;
 }
+
 #icon {
   position: relative;
   bottom: 15px;
