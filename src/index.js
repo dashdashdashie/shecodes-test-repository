@@ -62,6 +62,22 @@ function submit(event) {
   search(cityInput.value);
 }
 
+//Current location button
+
+function searchLocation(position) {
+  let apiKey = "5e96109715e693faebfe6b3b1afdacba";
+  let url = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
+  axios.get(url).then(displayTemperature);
+}
+
+function myLocation(event) {
+  event.preventDefault();
+  navigator.geolocation.getCurrentPosition(searchLocation);
+}
+
+let locationButton = document.querySelector("#location-button");
+locationButton.addEventListener("click", myLocation);
+
 //Celsius to Fahrenheit and back
 
 function fahrenheitSwitch(event) {

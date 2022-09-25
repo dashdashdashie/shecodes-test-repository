@@ -50,7 +50,18 @@ a:hover {
 #button {
   background: #29314b;
   border: 1px solid #29314b;
+  font-family: "Lato", sans-serif;
   color: #f5be48;
+}
+#location-button {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #3f4c77;
+  border-radius: 7px;
+  font-size: 20px;
+  background: rgb(63, 76, 119);
+  color: #f5be48;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 #city {
   font-size: 50px;
