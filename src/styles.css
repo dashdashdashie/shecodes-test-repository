@@ -39,6 +39,30 @@ a:hover {
   bottom: 30px;
   color: #f5be48;
 }
+.weather-forecast {
+  text-align: center;
+}
+.weather-forecast-day {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #f5be48;
+}
+.forecast-temperature-max {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #faebd7;
+}
+.forecast-temperature-min {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #171d2d;
+}
+.weather-forecast {
+  margin: 10px;
+}
 .units .active {
   color: antiquewhite;
   cursor: default;
