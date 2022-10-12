@@ -33,11 +33,11 @@ a:hover {
 }
 .units {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 300;
   position: relative;
-  bottom: 30px;
-  color: #f5be48;
+  bottom: 23px;
+  color: antiquewhite;
 }
 .weather-forecast {
   text-align: center;
@@ -63,14 +63,7 @@ a:hover {
 .weather-forecast {
   margin: 10px;
 }
-.units .active {
-  color: antiquewhite;
-  cursor: default;
-  text-decoration: none;
-}
-.units .active:hover {
-  text-decoration: none;
-}
+
 #button {
   background: #29314b;
   border: 1px solid #29314b;

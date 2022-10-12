@@ -23,14 +23,14 @@ function formatDate(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
+//Forecast
+
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
   let day = date.getDay();
   let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   return days[day];
 }
-
-//Forecast
 
 function displayForecast(response) {
   let forecast = response.data.daily;
@@ -136,38 +136,7 @@ function myLocation(event) {
 let locationButton = document.querySelector("#location-button");
 locationButton.addEventListener("click", myLocation);
 
-//Celsius to Fahrenheit and back
-
-function fahrenheitSwitch(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-
-  celsiusLink.classList.remove("active");
-  fahrenheitLink.classList.add("active");
-
-  let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
-}
-
-function celsiusSwitch(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-
-  celsiusLink.classList.add("active");
-  fahrenheitLink.classList.remove("active");
-
-  temperatureElement.innerHTML = Math.round(celsiusTemperature);
-}
-
-let celsiusTemperature = null;
-
 let submitButton = document.querySelector("#search-form");
 submitButton.addEventListener("submit", submit);
-
-let fahrenheitLink = document.querySelector("#fahrenheit");
-fahrenheitLink.addEventListener("click", fahrenheitSwitch);
-
-let celsiusLink = document.querySelector("#celsius");
-celsiusLink.addEventListener("click", celsiusSwitch);
 
 search("London");
