@@ -23,8 +23,8 @@ a:hover {
   color: antiquewhite;
   background: linear-gradient(
     112.1deg,
-    rgb(32, 38, 57) 11.4%,
-    rgb(63, 76, 119) 70.2%
+    rgb(24, 29, 45) 11.4%,
+    rgb(49, 58, 86) 70.2%
   );
 }
 .weather-description {
@@ -64,7 +64,7 @@ a:hover {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #171d2d;
+  color: #0c101c;
 }
 .weather-forecast {
   margin: 10px;
@@ -82,10 +82,10 @@ a:hover {
   left: 15px;
   top: 20px;
   padding: 10px 20px 10px 20px;
-  border: 1px solid #3f4c77;
+  border: 1px solid #2b334c;
   border-radius: 7px;
   font-size: 17px;
-  background: rgb(63, 76, 119);
+  background: rgb(43, 51, 76);
   color: antiquewhite;
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -97,7 +97,7 @@ a:hover {
   color: #f5be48;
   position: relative;
   top: 10px;
-  left: 15px;
+  left: 10px;
 }
 #temperature {
   font-size: 60px;
