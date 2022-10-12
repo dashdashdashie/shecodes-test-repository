@@ -27,6 +27,12 @@ a:hover {
     rgb(63, 76, 119) 70.2%
   );
 }
+.weather-description {
+  color: #f5be48;
+  position: relative;
+  right: -20px;
+  top: -25px;
+}
 
 .temp-and-units {
   text-align: right;
@@ -44,15 +50,15 @@ a:hover {
 }
 .weather-forecast-day {
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
-  color: #f5be48;
+  color: antiquewhite;
 }
 .forecast-temperature-max {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #faebd7;
+  color: #f5be48;
 }
 .forecast-temperature-min {
   font-family: "Lato", sans-serif;
@@ -69,14 +75,18 @@ a:hover {
   border: 1px solid #29314b;
   font-family: "Lato", sans-serif;
   color: #f5be48;
+  font-weight: 300;
 }
 #location-button {
+  position: relative;
+  left: 15px;
+  top: 20px;
   padding: 10px 20px 10px 20px;
   border: 1px solid #3f4c77;
   border-radius: 7px;
-  font-size: 20px;
+  font-size: 17px;
   background: rgb(63, 76, 119);
-  color: #f5be48;
+  color: antiquewhite;
   font-family: "Lato", sans-serif;
   font-weight: 300;
 }
@@ -85,6 +95,9 @@ a:hover {
   font-weight: 300;
   font-family: "Lato";
   color: #f5be48;
+  position: relative;
+  top: 10px;
+  left: 15px;
 }
 #temperature {
   font-size: 60px;
